@@ -1,0 +1,158 @@
+.body
+{
+    background-color: #ECF0F5;
+    font-size: 22px;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-right:3%;
+    padding-bottom:1%;
+    color:#434449;
+
+}
+
+.card
+{
+    width:auto;
+   padding: 0.5%;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   
+   
+}
+  
+  .mat-form-field {
+    margin-top: 16px;
+  }
+  .stretched-tabs {
+    width: 100%;
+  }
+
+  .tab-icon
+  {
+    margin-right: 8px;
+      color: #196EBF;
+     
+    
+  }
+  .tab-heading
+  {
+    font-size: 14px; 
+    padding-left: 0px;
+  }
+
+  .info-icon
+  {
+      color:#434449;
+      font-size: 35px;
+  }
+
+  .info
+  {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+    padding-top: 1%;
+    
+  }
+.content
+{
+  color:#434449;
+  margin-bottom:0px;
+  margin-top:20px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.form-label
+{
+  font-size: 15px;
+  font-weight: bold;
+}
+mat-form-field {
+  font-size: 16px;
+  width:100%;
+  
+ }
+
+ .row
+ {
+   padding-left: 2%;
+   padding-right: 2%;
+ }
+
+ .mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+ 
+}
+
+mat-radio-group
+{
+  font-size: 14px;
+  width:100%;
+}
+
+.radio-button-field
+{
+  border-radius:5px;
+  border-style:solid;
+  border-color: #D7D7D7;
+  border-width:1px;
+  font-size: 12px;
+  width:97%;
+  height:55%;
+  color:#666666;
+  margin-top:1.5%;
+
+}
+
+fieldset:hover
+{
+  border-color: #212121;
+  border-width: 2px;
+  
+}
+
+fieldset:focus-within
+{
+  border-color:#3F51B5;
+  border-width: 2px;
+  color:#3F51B5;
+}
+
+.permanent-add-checkbox
+{
+  color:#434449;
+  font-size: 18px;
+
+}
+
+.table-header
+{
+  font-size: 14px;
+ 
+}
+td
+{
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  text-align: left;
+  padding: 8px;
+  background-color: #434449;
+  color:#D7D7D7;
+  font-weight: normal;
+}
+
+.table-view
+{
+  height:auto;
+}
+
+.addButton
+{
+width:5%;
+
+}
