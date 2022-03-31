@@ -14,7 +14,10 @@ import {MaterialModule} from '../environments/material.module';
 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { BodyComponent } from './body/body.component';
+
+import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { CreateProfileComponent } from './create-profile/create-profile.component';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -22,7 +25,8 @@ import { BodyComponent } from './body/body.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    BodyComponent
+    ViewProfileComponent,
+    CreateProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +38,8 @@ import { BodyComponent } from './body/body.component';
     MatNativeDateModule,
     ReactiveFormsModule,
     FormsModule,
-    MaterialModule
+    MaterialModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

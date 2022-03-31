@@ -1,0 +1,40 @@
+My profile
+<mat-card class="card">
+    <div class="row" fxLayout="row" fxLayout.lt-md="column" fxLayout.sm="column" fxLayoutGap="1%">
+        <div fxLayoutAlign="center" fxFlex="auto">
+            <span fxLayout="column" fxLayout.lt-md="column" >
+                <div fxLayoutAlign="center" class="img">
+                    <img width="150px" height="150px" src="\assets\baseline_account_circle_black_36dp.png" alt="unavailable">
+                </div>
+                <span fxLayout="row">
+                    <span fxLayout="column" fxLayoutAlign="center" fxLayoutGap="10px">
+                        <mat-card-title fxLayoutAlign="end" fxFlex="auto">User name</mat-card-title>
+                        <mat-card-subtitle fxLayoutAlign="center" fxFlex="auto">Role</mat-card-subtitle>
+                    </span>
+                    <div fxLayoutAlign="center" fxFlex="auto" class="pd">
+                        <button mat-raised-button color="primary">Edit Profile</button>
+                    </div>
+                </span> 
+            </span>
+        </div>
+    <mat-divider [vertical]="true"></mat-divider>
+        <div fxLayoutAlign="start center" fxFlex="auto">
+         <div class="grid-layout">
+             
+            <mat-grid-list cols="2" rowHeight="1:0.25">
+                <mat-grid-tile><label>Employee Name</label></mat-grid-tile>
+                <mat-grid-tile ><p class="content">user_name</p></mat-grid-tile>
+                <mat-grid-tile><label>Employee ID</label></mat-grid-tile>
+                <mat-grid-tile ><p class="content">emp_ID</p></mat-grid-tile>
+                <mat-grid-tile><label>Designation</label></mat-grid-tile>
+                <mat-grid-tile ><p class="content">designation</p></mat-grid-tile>
+                <mat-grid-tile><label>Location</label></mat-grid-tile>
+                <mat-grid-tile ><p class="content">loc</p></mat-grid-tile>
+              </mat-grid-list>
+            </div>
+        </div>
+    </div>
+</mat-card>
+<mat-card>
+    
+</mat-card>
